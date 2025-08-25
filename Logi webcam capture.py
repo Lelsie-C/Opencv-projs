@@ -1,7 +1,7 @@
 import cv2
 
 # Open the webcam (0 is the default camera)
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 
 # Wait for the camera to initialize
 ret, frame = cap.read()
